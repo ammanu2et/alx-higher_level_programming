@@ -3,14 +3,11 @@ def fizzbuzz():
     i = 1
     while i <= 100:
         if i % 3 == 0:
-            print('Fizz')
-            continue
+            print('Fizz', end="")
         elif i % 5 == 0:
-            print('Buzz')
-            continue
+            print('Buzz', end="")
         elif i % 15 == 0:
-            print('FizzBuzz')
-            continue
+            print('FizzBuzz', end="")
         else:
             print("{:d}".format(i), end="")
         i += 1
