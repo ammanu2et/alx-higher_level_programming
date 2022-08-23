@@ -13,4 +13,4 @@ def fizzbuzz():
             continue
         else:
             print("{:d}".format(i), end="")
-    i += 1
+        i += 1
