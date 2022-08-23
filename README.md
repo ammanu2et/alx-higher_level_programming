@@ -1,1 +1,1 @@
-This directory is the first project of python or hello world directory.
+This repo contains python project directories.
