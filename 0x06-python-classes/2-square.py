@@ -10,22 +10,19 @@ class Square:
         many things depend of it (area computation, etc.), so you,
         as class builder, must control the type and value of this attribute.
 
-    Attributes:
-        The size of a square is crucial for a square,
-        many things depend of it (area computation, etc.), so you,
-        as class builder, must control the type and value of this attribute.
-
     """
 
     def __init__(self, size=0):
-        self.__size = size
 
-    """ """
+    """ Attributes:
+        The size of a square is crucial for a square,
+        many things depend of it (area computation, etc.), so you,
+        as class builder, must control the type and value of this attribute.
+    """
 
-    def size(self):
-        if size < 0
-            return "size must be >= 0"
-        if int(size):
-            return self.size = size
+        if size < 0:
+            raise ValueError('size must be >= 0')
+        elif type(size) is not int:
+            raise TypeError('size must be an integer')
         else:
-            return "size must be an integer"
+            self.__size = size
