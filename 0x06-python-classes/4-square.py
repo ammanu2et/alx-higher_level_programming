@@ -8,15 +8,15 @@ class Square:
     def __init__(self, size=0):
         """initialize square
         Args:
-            value (int): size of the square
+            value (int): size of the square.
         """
         self.__size = size
 
     @property
     def size(self):
-        """int: size
+        """int: private size
         Returns:
-            size (int): size of the square
+            Private size.
         """
         return self.__size
 
@@ -29,7 +29,7 @@ class Square:
         """
         if type(value) is not int:
             raise TypeError('size must be an integer')
-        elif size < 0:
+        elif value < 0:
             raise ValueError('size must be >= 0')
         else:
             self.__size = value
