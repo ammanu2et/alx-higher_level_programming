@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """ class Square that defines a square"""
-
-
 class Square:
     """ class Square that defines a square"""
 
@@ -10,7 +8,6 @@ class Square:
         Args:
             size (int): size of the square
         """
-
         if type(size) is not int:
             raise TypeError('size must be an integer')
         elif size < 0:
