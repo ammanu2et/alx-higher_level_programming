@@ -1,0 +1,8 @@
+def add_integer(a, b=98):
+    """
+    >>> add_integer(2, 3)
+    5
+    >>> add_integer(2)
+    100
+    """
+    return int(a + b)
