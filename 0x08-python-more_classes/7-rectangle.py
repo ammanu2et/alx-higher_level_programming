@@ -70,8 +70,8 @@ class Rectangle:
         if self.__height == 0 or self.__width == 0:
             return ""
 
-        return ("\n".join(["".join([str(self.print_symbol) for i in range(self.__width)])
-                for j in range(self.__height)]))
+        return ("\n".join(["".join([str(self.print_symbol)
+                for i in range(self.__width)])for j in range(self.__height)]))
 
     def __repr__(self):
         """Returns the string representation of the function."""
