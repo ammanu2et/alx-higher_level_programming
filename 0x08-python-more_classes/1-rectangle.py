@@ -39,7 +39,7 @@ class Rectangle:
         """
         return self.__height
 
-    @position.setter
+    @height.setter
     def height(self, value):
         if type(value) is not int:
             raise TypeError('height must be an integer')
