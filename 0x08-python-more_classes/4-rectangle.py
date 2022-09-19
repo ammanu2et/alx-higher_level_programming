@@ -70,4 +70,4 @@ class Rectangle:
 
     def __repr__(self):
         """Returns the string representation of the function."""
-        return (self.__width, self.__height)
+        return 'Rectangle({}, {})'.format(self.__width, self.__height)
