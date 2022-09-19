@@ -1,18 +1,18 @@
 #!/usr/bin/python3
-"""Rectangel is an empty class that define a rectangle."""
+"""Rectangel is an empty class that define a rectangle.
+"""
 
 
 class Rectangle:
     """Rectangel class that defines a rectangle."""
-
     def __init__(self, width=0, height=0):
         """Initialize Rectangel
         Args:
             width (int): width of the rectangle.
             height (int): the height of the rectangle.
         """
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @proprty
     def width(self):
