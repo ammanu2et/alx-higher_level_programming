@@ -1,0 +1,49 @@
+#!/usr/bin/python3
+"""Rectangel is an empty class that define a rectangle."""
+
+
+class Rectangle:
+    """Rectangel class that defines a rectangle."""
+
+    def __init__(self, width=0, height=0):
+        """Initialize Rectangel
+        Args:
+            width (int): width of the rectangle.
+            height (int): the height of the rectangle.
+        """
+        self.__width = width
+        self.__height = height
+
+    @proprty
+    def width(self):
+        """int: private width
+        Returns:
+            private width.
+        """
+        return self.__width
+
+    @width.setter
+    def width(self, value):
+        if type(value) is not int:
+            raise TypeError('width must be an integer')
+        elif value < 0:
+            raise ValueError('width must be >= 0')
+        else:
+            self.__width = value
+
+    @property
+    def height(self):
+        """int: private height
+        Returns:
+            private height.
+        """
+        return self.__height
+
+    @position.setter
+    def height(self, value):
+        if type(value) is not int:
+            raise TypeError('height must be an integer')
+        elif value < 0:
+            raise ValueError('height must be >= 0')
+        else:
+            self.__height = value
