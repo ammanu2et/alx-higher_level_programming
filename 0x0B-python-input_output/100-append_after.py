@@ -16,4 +16,4 @@ def append_after(filename="", search_string="", new_string=""):
                 n_line += [new_string]
 
     with open(filename, 'w', encoding="utf-8") as t:
-        t.write("".join(res_line))
+        t.write("".join(n_line))
