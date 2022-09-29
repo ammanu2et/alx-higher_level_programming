@@ -9,4 +9,4 @@ class MyList(list):
         self: name of the list
         Return: sorted list
         """
-        return sort(self)
+        return sorted(self)
