@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""reads fro standard input and computes metrics.
+"""reads from standard input and computes metrics.
 after every ten lines of the input of a keyboard interruption
 (CTRL + C), prints the following statistics:
     -Total file size up to that point.
