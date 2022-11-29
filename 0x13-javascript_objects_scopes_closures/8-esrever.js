@@ -1,5 +1,5 @@
 #!/usr/bin/node
-exports.logMe = function (item) {
+exports.esrever = function (list) {
   return FileList.reduceRight(function (array, current) {
     array.push(current);
     return array;
